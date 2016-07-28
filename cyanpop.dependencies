@@ -1,0 +1,7 @@
+[
+  {
+    "repository": "CyanogenMod/android_external_busybox",
+    "target_path": "external/busybox",
+    "branch":      "cm-13.0"
+  }
+]
