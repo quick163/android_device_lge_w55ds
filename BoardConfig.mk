@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,26 +22,18 @@
 #
 
 
-# Common specific options in device_w5.mk
+# Common specific options in device_w55ds.mk
 -include device/lge/msm8226-common/BoardConfigCommon.mk
 
 # Platform
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno302
 TARGET_BOARD_PLATFORM := msm8610
-TARGET_BOOTLOADER_BOARD_NAME := MSM8610
-
-# Vendor Init
-TARGET_UNIFIED_DEVICE := true
-TARGET_INIT_VENDOR_LIB := libinit_msm
-TARGET_LIBINIT_DEFINES_FILE := device/lge/w5/init/init_w5.cpp
-TARGET_OTA_ASSERT_DEVICE := w5,w5ds,w5n
-TARGET_RELEASETOOLS_EXTENSIONS := device/lge/w5
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := w5
+TARGET_BOOTLOADER_BOARD_NAME := MSM8610
 
 # Kernel
-TARGET_KERNEL_CONFIG := w5_cyanogenmod_defconfig
+TARGET_KERNEL_CONFIG := w55ds_cyanogenmod_defconfig
 
 # Filesystem,
 BOARD_FLASH_BLOCK_SIZE := 131072
@@ -51,3 +43,5 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE :=   1000000000
 BOARD_CACHEIMAGE_PARTITION_SIZE :=    100000000
 BOARD_PERSISTIMAGE_PARTITION_SIZE  := 33554432
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := w4,w5ds,w55ds,gammaw

@@ -1,7 +1,14 @@
 telephony.lteOnGsmDevice=0
 ro.telephony.default_network=3
 
+persist.multisim.config=dsds
+persist.radio.multisim.config=dsds
+persist.radio.dont_use_dsd=true
+ro.telephony.ril.config=simactivation
+telephony.lteOnCdmaDevice=0
+
 ro.sf.lcd_density=240
+persist.panel.inversemounted=1
 
 ro.qualcomm.sensors.qmd=false
 ro.qc.sdk.sensors.gestures=true
@@ -16,4 +23,3 @@ ro.qualcomm.sensors.georv=true
 ro.qc.sensors.smgr_mag_cal_en=false
 ro.qc.sensors.max_grav_no_gyro=50
 ro.qc.sensors.max_geomag_rotvec=50
-
