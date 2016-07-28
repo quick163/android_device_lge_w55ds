@@ -28,6 +28,21 @@ PRODUCT_COPY_FILES += \
     device/lge/w55ds/prebuilt/usr/idc/touch_dev.idc:system/usr/idc/touch_dev.idc \
     device/lge/w55ds/prebuilt/usr/keylayout/Generic.kl:system/usr/keylayout/Generic.kl
 
+# TWRP
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/twrp/vendor/firmware/cmnlib.b00:recovery/root/vendor/firmware/cmnlib.b00 \
+    $(LOCAL_PATH)/twrp/vendor/firmware/cmnlib.b01:recovery/root/vendor/firmware/cmnlib.b01 \
+    $(LOCAL_PATH)/twrp/vendor/firmware/cmnlib.b02:recovery/root/vendor/firmware/cmnlib.b02 \
+    $(LOCAL_PATH)/twrp/vendor/firmware/cmnlib.b03:recovery/root/vendor/firmware/cmnlib.b03 \
+    $(LOCAL_PATH)/twrp/vendor/firmware/cmnlib.mdt:recovery/root/vendor/firmware/cmnlib.mdt \
+    $(LOCAL_PATH)/twrp/vendor/firmware/keymaster/keymaster.b00:recovery/root/vendor/firmware/keymaster/keymaster.b00 \
+    $(LOCAL_PATH)/twrp/vendor/firmware/keymaster/keymaster.b01:recovery/root/vendor/firmware/keymaster/keymaster.b01 \
+    $(LOCAL_PATH)/twrp/vendor/firmware/keymaster/keymaster.b02:recovery/root/vendor/firmware/keymaster/keymaster.b02 \
+    $(LOCAL_PATH)/twrp/vendor/firmware/keymaster/keymaster.b03:recovery/root/vendor/firmware/keymaster/keymaster.b03 \
+    $(LOCAL_PATH)/twrp/vendor/firmware/keymaster/keymaster.mdt:recovery/root/vendor/firmware/keymaster/keymaster.mdt \
+    $(LOCAL_PATH)/twrp/vendor/lib/hw/keystore.msm8610.so:recovery/root/vendor/lib/hw/keystore.msm8610.so \
+    $(LOCAL_PATH)/twrp/vendor/lib/libQSEEComAPI.so:recovery/root/vendor/lib/libQSEEComAPI.so
+
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := hdpi
