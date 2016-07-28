@@ -1,21 +1,24 @@
-CyanogenMod 13.0 device configuration for LG L65
+AOSP-CAF 6.0 device configuration for LG L65
 
 Set working directory:
 -------------
 
-    mkdir ~/cm13.0 && cd ~/cm13.0
+    mkdir ~/AOSP-CAF && cd ~/AOSP-CAF
 
 How to build:
 -------------
 
 Initialize repo:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0
+    repo init -u https://github.com/AOSP-CAF/platform_manifest.git -b mm6.0
 
-    curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/quick163/android_local_manifest/cm-13.0/local_manifest.xml
-    repo sync
+    curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/quick163/android_local_manifest/mm6.0/local_manifest.xml
+    repo sync -c -f -jX --force-sync --no-clone-bundle --no-tags
 
 Compile:
 
     . build/envsetup.sh
-    brunch cm_w55ds-userdebug
+    lunch aosp_w55ds-userdebug
+    make -jX otapackage
+    
+where X is the number of jobs you would like to allot to the build system.

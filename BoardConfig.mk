@@ -34,6 +34,7 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8610
 
 # Kernel
 TARGET_KERNEL_CONFIG := w55ds_cyanogenmod_defconfig
+BOARD_CUSTOM_BOOTIMG_MK := device/lge/w55ds/mkbootimg.mk
 
 # Filesystem,
 BOARD_FLASH_BLOCK_SIZE := 131072

@@ -21,5 +21,7 @@
 # function: add_lunch_combo generic-eng
 
 #dd_lunch_combo full_mb526-eng
-add_lunch_combo cm_w55ds-userdebug
+add_lunch_combo aosp_w55ds-userdebug
+add_lunch_combo aosp_w55ds-user
+add_lunch_combo aosp_w55ds-eng
 
