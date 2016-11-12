@@ -3,16 +3,16 @@ CyanogenMod 13.0 device configuration for LG L65
 Set working directory:
 -------------
 
-    mkdir ~/cm13.0 && cd ~/cm13.0
+    mkdir ~/cm14.1 && cd ~/cm14.1
 
 How to build:
 -------------
 
 Initialize repo:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0
+    repo init -u git://github.com/CyanogenMod/android.git -b cm-14.1
 
-    curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/quick163/android_local_manifest/cm-13.0/local_manifest.xml
+    curl --create-dirs -L -o .repo/local_manifests/local_manifest.xml -O -L https://raw.githubusercontent.com/quick163/android_local_manifest/cm-14.1/local_manifest.xml
     repo sync
 
 Compile:
