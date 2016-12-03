@@ -26,4 +26,4 @@ ro.qc.sensors.max_geomag_rotvec=50
 
 qcom.bluetooth.soc=smd
 
-cm.updater.uri=http://opnet.top/fupd/d285/CyanogenModOTA/api
+cm.updater.uri=https://opnet.top/fupd/d285/CyanogenModOTA/api
