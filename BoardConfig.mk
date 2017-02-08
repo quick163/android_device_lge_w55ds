@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -33,7 +33,7 @@ TARGET_BOARD_PLATFORM := msm8610
 TARGET_BOOTLOADER_BOARD_NAME := MSM8610
 
 # Kernel
-TARGET_KERNEL_CONFIG := w55ds_cyanogenmod_defconfig
+TARGET_KERNEL_CONFIG := w55ds_lineageos_defconfig
 
 # Filesystem,
 BOARD_FLASH_BLOCK_SIZE := 131072
