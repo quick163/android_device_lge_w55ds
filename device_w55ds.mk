@@ -49,6 +49,10 @@ PRODUCT_PACKAGES += \
     memtrack.msm8610 \
     power.msm8610 \
     sensors.msm8610
+    
+# CMActions
+PRODUCT_PACKAGES += \
+CMActions
 
 # Inherit from msm8226-common
 $(call inherit-product, device/lge/msm8226-common/msm8226.mk)
