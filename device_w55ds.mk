@@ -54,6 +54,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
 CMActions
 
+# FlipFlap
+PRODUCT_PACKAGES += \
+FlipFlap
+
 # Inherit from msm8226-common
 $(call inherit-product, device/lge/msm8226-common/msm8226.mk)
 $(call inherit-product, vendor/lge/w55ds/w55ds-vendor.mk)
