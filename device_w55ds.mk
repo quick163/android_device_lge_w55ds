@@ -51,8 +51,8 @@ PRODUCT_PACKAGES += \
     sensors.msm8610
     
 # CMActions
-PRODUCT_PACKAGES += \
-CMActions
+#PRODUCT_PACKAGES += \
+#CMActions
 
 # FlipFlap
 PRODUCT_PACKAGES += \
