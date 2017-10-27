@@ -8,7 +8,7 @@ ro.telephony.ril.config=simactivation
 telephony.lteOnCdmaDevice=0
 
 ro.sf.lcd_density=240
-ro.panel.mountflip=3
+ro.sf.hwrotation=2
 
 ro.qualcomm.sensors.qmd=false
 ro.qc.sdk.sensors.gestures=true
