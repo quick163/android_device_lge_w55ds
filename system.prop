@@ -8,7 +8,7 @@ ro.telephony.ril.config=simactivation
 telephony.lteOnCdmaDevice=0
 
 ro.sf.lcd_density=240
-ro.panel.mountflip=3
+ro.sf.hwrotation=2
 
 ro.qualcomm.sensors.qmd=false
 ro.qc.sdk.sensors.gestures=true
@@ -25,5 +25,3 @@ ro.qc.sensors.max_grav_no_gyro=50
 ro.qc.sensors.max_geomag_rotvec=50
 
 qcom.bluetooth.soc=smd
-
-cm.updater.uri=https://opnet.top/fupd/d285/CyanogenModOTA/api
