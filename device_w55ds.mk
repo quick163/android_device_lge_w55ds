@@ -24,7 +24,7 @@ DEVICE_PACKAGE_OVERLAYS += device/lge/w55ds/overlay
 # Configs
 PRODUCT_COPY_FILES += \
     device/lge/w55ds/prebuilt/etc/media_profiles.xml:system/etc/media_profiles.xml \
-    device/lge/w55ds/prebuilt/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
+    device/lge/w55ds/prebuilt/etc/mixer_paths.xml:system/vendor/etc/mixer_paths.xml \
     device/lge/w55ds/prebuilt/usr/idc/touch_dev.idc:system/usr/idc/touch_dev.idc \
     device/lge/w55ds/prebuilt/usr/keylayout/Generic.kl:system/usr/keylayout/Generic.kl
 
